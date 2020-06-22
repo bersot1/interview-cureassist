@@ -1,4 +1,5 @@
 import 'package:cureassist/pages/homepage.dart';
+import 'package:cureassist/pages/tabs.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,8 +14,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
-          visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        home: HomePage());
+        home: Tabs());
   }
 }
